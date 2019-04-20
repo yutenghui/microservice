@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      #  discovery:
+      #    enabled: true # 通过服务发现的方式去找配置中心
+      #    service-id: bchd-timp-config # 配置中心的名字，直接配置名称可以在配置中心集群的时候实现负载均衡
+      uri: http://localhost:7101
+      name: microservice-user
+      profile: dev #对应配置中心文件的${profile}部分

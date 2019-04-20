@@ -50,6 +50,11 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.56</version>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -69,6 +74,7 @@
         <module>microservice_config</module>
         <module>microservice_eureka</module>
         <module>microservice_gateway</module>
+        <module>microservice_user</module>
     </modules>
 
 

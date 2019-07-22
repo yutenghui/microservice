@@ -1,11 +1,5 @@
 server:
   port: 7101
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:7001/eureka
-  instance:
-    hostname: localhost
 spring:
   application:
     name: microservice-config
@@ -14,3 +8,9 @@ spring:
       server:
         git:
           uri: https://github.com/yutenghui/microservice-config.git
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka

@@ -70,6 +70,7 @@
         <module>microservice_eureka</module>
         <module>microservice_gateway</module>
         <module>microservice_user</module>
+        <module>microservice_im</module>
     </modules>
 
 

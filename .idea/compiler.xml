@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice_config" />
-        <module name="microservice_api" />
         <module name="microservice_gateway" />
-        <module name="microservice_eureka" />
+        <module name="microservice_api" />
+        <module name="microservice_im" />
         <module name="microservice_user" />
+        <module name="microservice_eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,7 @@
       <module name="microservice_config" options="-parameters" />
       <module name="microservice_eureka" options="-parameters" />
       <module name="microservice_gateway" options="-parameters" />
+      <module name="microservice_im" options="-parameters" />
       <module name="microservice_user" options="-parameters" />
     </option>
   </component>

@@ -1,4 +1,4 @@
-package com.bchd.user.service;
+package com.bchd.user.channels;
 
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;
@@ -7,10 +7,14 @@ import org.springframework.messaging.MessageChannel;
  * @Author: yth
  * @Date: 2019-07-25 15:52
  * @Version 1.0
- * @Description 输出通道
+ * @Description user输出通道
  */
-public interface UserOutputChannels {
+public interface IUserOutputChannels {
 
+    /**
+     * 用户变更输出
+     * @return
+     */
     @Output("userChangeOutput")
     MessageChannel userChangeOutput();
 }

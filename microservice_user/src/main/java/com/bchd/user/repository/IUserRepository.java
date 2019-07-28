@@ -9,5 +9,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @Version 1.0
  * @Description
  */
-public interface UserRepository extends JpaRepository<User,Integer> {
+public interface IUserRepository extends JpaRepository<User,Integer> {
+    User findUserByMobile(String mobile);
 }

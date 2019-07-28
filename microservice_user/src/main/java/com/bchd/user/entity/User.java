@@ -32,4 +32,6 @@ public class User {
     private String qrcode;
 
     private String cid;
+
+    private String mobile;
 }

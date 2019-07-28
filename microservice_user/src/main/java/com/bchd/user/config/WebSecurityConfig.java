@@ -1,9 +1,5 @@
 package com.bchd.user.config;
 
-import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 /**
  * @Author: yth
@@ -11,7 +7,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  * @Version 1.0
  * @Description
  */
-@Configuration
+/*@Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
     @Override
@@ -22,4 +18,4 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
                 .anyRequest().authenticated()
                 .and().csrf().disable();
     }
-}
+}*/

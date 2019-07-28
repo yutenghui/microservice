@@ -10,10 +10,10 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: 192.168.1.76:9092         #Kafka的消息中间件服务器
-          zk-nodes: 192.168.1.76:2181        #Zookeeper的节点，如果集群，后面加,号分隔
+          brokers: 192.168.1.35:9092         #Kafka的消息中间件服务器
+          zk-nodes: 192.168.1.35:2181        #Zookeeper的节点，如果集群，后面加,号分隔
           auto-create-topics: true        #如果设置为false,就不会自动创建Topic
       bindings:
-        output:      #stream给我们提供的默认output
+        userChangeOutput:
           destination: userTopic    #消息发往的目的地
           content-type: application/json    #消息发送的格式，接收端不用指定格式，但是发送端要

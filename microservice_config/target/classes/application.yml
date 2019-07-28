@@ -1,5 +1,5 @@
 server:
-  port: 7101
+  port: 9100
 spring:
   application:
     name: microservice-config
@@ -13,4 +13,4 @@ eureka:
     hostname: localhost
   client:
     serviceUrl:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://localhost:9101/eureka

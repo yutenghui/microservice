@@ -65,7 +65,7 @@
     </dependencyManagement>
 
     <modules>
-        <module>microservice_api</module>
+        <module>microservice_common</module>
         <module>microservice_config</module>
         <module>microservice_eureka</module>
         <module>microservice_gateway</module>

@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/yutenghui/microservice-config.git
+          uri: https://github.com/yutenghui/config-repository.git
 eureka:
   instance:
     hostname: localhost

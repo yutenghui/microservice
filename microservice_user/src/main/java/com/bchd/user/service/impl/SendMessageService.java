@@ -1,8 +1,8 @@
-package com.bchd.user.service;
+package com.bchd.user.service.impl;
 
+import com.bchd.user.service.UserOutputChannels;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.stream.annotation.EnableBinding;
-import org.springframework.cloud.stream.messaging.Source;
 import org.springframework.messaging.support.MessageBuilder;
 
 /**
@@ -11,14 +11,14 @@ import org.springframework.messaging.support.MessageBuilder;
  * @Version 1.0
  * @Description
  */
-@EnableBinding(Source.class)
+@EnableBinding(UserOutputChannels.class)
 public class SendMessageService {
 
     @Autowired
-    private Source source;
+    private UserOutputChannels userOutputChannels;
 
     public void sendMessage(String message){
-        source.output().send(MessageBuilder.withPayload(message).build());
+        userOutputChannels.userChangeOutput().send(MessageBuilder.withPayload(message).build());
     }
 
 }

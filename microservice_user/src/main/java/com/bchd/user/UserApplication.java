@@ -12,8 +12,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class UserApplocation {
+public class UserApplication {
     public static void main(String[] args) {
-        SpringApplication.run(UserApplocation.class, args);
+        SpringApplication.run(UserApplication.class, args);
     }
 }

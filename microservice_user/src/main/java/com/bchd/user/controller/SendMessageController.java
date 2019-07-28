@@ -1,7 +1,7 @@
 package com.bchd.user.controller;
 
 import com.bchd.user.entity.Message;
-import com.bchd.user.service.SendMessageService;
+import com.bchd.user.service.impl.SendMessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

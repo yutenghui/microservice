@@ -14,5 +14,6 @@ spring:
           zk-nodes: 192.168.1.76:2181        #Zookeeper的节点，如果集群，后面加,号分隔
           auto-create-topics: true        #如果设置为false,就不会自动创建Topic
       bindings:
-        input:
+        userChangeInput:
           destination: userTopic
+          group: im

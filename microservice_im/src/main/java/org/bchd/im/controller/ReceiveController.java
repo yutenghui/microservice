@@ -1,8 +1,8 @@
 package org.bchd.im.controller;
 
+import org.bchd.im.service.UserInputChannels;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
-import org.springframework.cloud.stream.messaging.Sink;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
  * @Description
  */
 @RestController
-@EnableBinding(Sink.class)
+@EnableBinding(UserInputChannels.class)
 public class ReceiveController {
 
-    @StreamListener(Sink.INPUT)
-    public void receiveController(Object payload){
+    @StreamListener("userChangeInput")
+    public void receiveUserChangeMessage(Object payload){
         System.out.println(payload);
     }
 }

@@ -12,8 +12,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class IMApplocation {
+public class IMApplication {
     public static void main(String[] args) {
-        SpringApplication.run(IMApplocation.class, args);
+        SpringApplication.run(IMApplication.class, args);
     }
 }

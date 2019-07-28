@@ -2,6 +2,7 @@ package com.bchd.user.entity;
 
 import lombok.Data;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -12,10 +13,23 @@ import javax.persistence.Table;
  */
 @Data
 @Entity
-@Table()
+@Table(name = "user")
 public class User {
-    private Integer id;
-    private String userName;
-    private String sex;
-    private Integer age;
+
+    @Id
+    private String id;
+
+    private String username;
+
+    private String password;
+
+    private String faceImage;
+
+    private String faceImageBig;
+
+    private String nickname;
+
+    private String qrcode;
+
+    private String cid;
 }

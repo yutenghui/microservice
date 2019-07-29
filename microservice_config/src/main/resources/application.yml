@@ -8,9 +8,22 @@ spring:
       server:
         git:
           uri: https://github.com/yutenghui/config-repository.git
+          default-label: master
+    bus:
+      refresh:
+        enabled: true
+  kafka:
+    bootstrap-servers: 192.168.1.76:9092
+    consumer:
+      group-id: SpringCloud-Bus
 eureka:
   instance:
     hostname: localhost
   client:
     serviceUrl:
       defaultZone: http://localhost:9101/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'   #refresh

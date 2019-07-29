@@ -7,3 +7,14 @@ spring:
       uri: http://localhost:9100
       name: microservice-eureka
       profile: dev #对应配置中心文件的${profile}部分
+      label: master
+    bus:
+      refresh:
+        enabled: true
+  kafka:
+    bootstrap-servers: 192.168.1.76:9092
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

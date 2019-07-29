@@ -7,6 +7,7 @@ spring:
       uri: http://localhost:9100
       name: microservice-user
       profile: dev #对应配置中心文件的${profile}部分
+      label: master
     stream:
       kafka:
         binder:
@@ -17,3 +18,13 @@ spring:
         userChangeOutput:
           destination: userTopic    #消息发往的目的地
           content-type: application/json    #消息发送的格式，接收端不用指定格式，但是发送端要
+    bus:
+      refresh:
+        enabled: true
+  kafka:
+    bootstrap-servers: 192.168.1.76:9092
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

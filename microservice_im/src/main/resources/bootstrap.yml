@@ -7,6 +7,7 @@ spring:
       uri: http://localhost:9100
       name: microservice-im
       profile: dev #对应配置中心文件的${profile}部分
+      label: master
     stream:
       kafka:
         binder:
@@ -17,3 +18,13 @@ spring:
         userChangeInput:
           destination: userTopic
           group: im
+    bus:
+      refresh:
+        enabled: true
+  kafka:
+    bootstrap-servers: 192.168.1.76:9092
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

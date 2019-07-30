@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e836aed6-171a-4813-becc-21e4d89228d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config/MyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config/MybatisPlusConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_config/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_config/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_eureka/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_eureka/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_eureka/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_eureka/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_gateway/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice_im/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_im/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_im/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_im/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_user/src/main/java/com/bchd/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_user/src/main/java/com/bchd/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_user/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_user/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,98 +31,74 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice_config/pom.xml">
+        <entry file="file://$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/entity/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice_eureka/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice_eureka/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="19" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice_gateway/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="158">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice_im/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice_user/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="50" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice_im/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="232">
+              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice_gateway/pom.xml">
+        <entry file="file://$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/controller/ReceiveController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice_user/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice_user/src/main/java/com/bchd/user/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-652">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="462">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1796#1797#0" expanded="true" />
-                <element signature="e#1835#1836#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/service/UserInputChannels.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config/MyGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1482">
+              <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice_im/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -158,8 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice_eureka_7001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice_gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice_config/src/main/java/com/bchd/config/ConfigApplication.java" />
         <option value="$PROJECT_DIR$/microservice_user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice_user/src/main/java/com/bchd/user/service/sendService.java" />
@@ -205,10 +169,12 @@
         <option value="$PROJECT_DIR$/microservice_eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice_config/pom.xml" />
         <option value="$PROJECT_DIR$/microservice_user/src/main/java/com/bchd/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/microservice_im/pom.xml" />
         <option value="$PROJECT_DIR$/microservice_gateway/pom.xml" />
         <option value="$PROJECT_DIR$/microservice_gateway/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/microservice_im/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice_im/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config/MybatisPlusConfiguration.java" />
+        <option value="$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config/MyGenerator.java" />
       </list>
     </option>
   </component>
@@ -229,6 +195,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,58 +207,6 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice_eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice_gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="microservice_im" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -305,6 +221,56 @@
               <item name="microservice_im" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice_im" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice_im" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice_im" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="bchd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice_im" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="bchd" type="462c0819:PsiDirectoryNode" />
+              <item name="im" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice_im" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="bchd" type="462c0819:PsiDirectoryNode" />
+              <item name="im" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
@@ -318,8 +284,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,7 +295,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -340,17 +304,18 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/entity" />
-      <recent name="$PROJECT_DIR$/microservice_im/src/main/resources" />
-      <recent name="$PROJECT_DIR$/microservice_user/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice_eureka_7001/src/main/java" />
+      <recent name="$PROJECT_DIR$/microservice_eureka_7001/src/main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.bchd.im" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/microservice_eureka_7001/src/main/java" />
-      <recent name="$PROJECT_DIR$/microservice_eureka_7001/src/main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config" />
+      <recent name="$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/entity" />
+      <recent name="$PROJECT_DIR$/microservice_im/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservice_user/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -483,7 +448,8 @@
       <workItem from="1564014892805" duration="5179000" />
       <workItem from="1564194066485" duration="17547000" />
       <workItem from="1564298342779" duration="197000" />
-      <workItem from="1564403882532" duration="2883000" />
+      <workItem from="1564403882532" duration="3247000" />
+      <workItem from="1564470079823" duration="1952000" />
     </task>
     <task id="LOCAL-00001" summary="microservice">
       <created>1555237222418</created>
@@ -597,17 +563,31 @@
       <option name="project" value="LOCAL" />
       <updated>1564298213882</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="SpringCloud Bus">
+      <created>1564406978915</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564406978915</updated>
+    </task>
+    <task id="LOCAL-00018" summary="SpringCloud Bus">
+      <created>1564407015060</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564407015060</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68611000" />
+    <option name="totallyTimeSpent" value="70927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34149855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34726223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -615,6 +595,7 @@
       <window_info id="Web" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32905984" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6469761" />
@@ -625,8 +606,8 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32770744" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286517" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32763532" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32763532" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32904148" />
@@ -652,27 +633,14 @@
     <MESSAGE value="IM" />
     <MESSAGE value="spring cloud stream" />
     <MESSAGE value="JWT" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="SpringCloud Bus" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringCloud Bus" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="59" column="75" lean-forward="true" selection-start-line="59" selection-start-column="75" selection-end-line="59" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE.jar!/org/springframework/security/config/annotation/SecurityConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE.jar!/org/springframework/security/config/annotation/web/WebSecurityConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -754,28 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/service/UserInputChannels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/controller/ReceiveController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,30 +851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/utils/JWTUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/entity/StatusCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/utils/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3373">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,22 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/entity/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice_config/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
@@ -996,39 +906,6 @@
     <entry file="file://$PROJECT_DIR$/microservice.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_user/src/main/java/com/bchd/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-652">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1796#1797#0" expanded="true" />
-            <element signature="e#1835#1836#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_user/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice_user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1036,10 +913,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_im/pom.xml">
+    <entry file="file://$PROJECT_DIR$/microservice_user/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="130">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1050,13 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice_eureka/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice_gateway/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -1064,10 +934,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_eureka/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_user/src/main/java/com/bchd/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <element signature="e#1796#1797#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/utils/JWTUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/utils/IdWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3352">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_common/src/main/java/com/bchd/common/entity/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/controller/ReceiveController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/service/UserInputChannels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config/MybatisPlusConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/microservice_im/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="343">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config/MyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="66" column="33" lean-forward="true" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice_im/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e836aed6-171a-4813-becc-21e4d89228d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config/MyGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice_im/src/main/java/org/bchd/im/config/MybatisPlusConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice_im/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice_im/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e836aed6-171a-4813-becc-21e4d89228d0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
@@ -53,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice_im/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="102">
+              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -449,7 +444,7 @@
       <workItem from="1564194066485" duration="17547000" />
       <workItem from="1564298342779" duration="197000" />
       <workItem from="1564403882532" duration="3247000" />
-      <workItem from="1564470079823" duration="1952000" />
+      <workItem from="1564470079823" duration="1999000" />
     </task>
     <task id="LOCAL-00001" summary="microservice">
       <created>1555237222418</created>
@@ -577,11 +572,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564407015060</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="mybatisPlus">
+      <created>1564472098936</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1564472098936</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70927000" />
+    <option name="totallyTimeSpent" value="70974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
@@ -634,7 +636,8 @@
     <MESSAGE value="spring cloud stream" />
     <MESSAGE value="JWT" />
     <MESSAGE value="SpringCloud Bus" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringCloud Bus" />
+    <MESSAGE value="mybatisPlus" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatisPlus" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1051,8 +1054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice_im/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="102">
+          <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
         </state>
       </provider>
     </entry>

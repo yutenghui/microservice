@@ -23,6 +23,11 @@ spring:
         enabled: true
   kafka:
     bootstrap-servers: 192.168.1.76:9092
+  sleuth:
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://192.168.1.76:9411
 management:
   endpoints:
     web:

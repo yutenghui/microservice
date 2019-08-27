@@ -1,17 +1,14 @@
 package com.bchd.user.controller;
 
 import com.bchd.common.entity.Result;
-import com.bchd.common.utils.IdWorker;
 import com.bchd.common.utils.JWTUtil;
 import com.bchd.user.entity.User;
 import com.bchd.user.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,9 +18,9 @@ import java.util.Map;
  * @Version 1.0
  * @Description
  */
+@RefreshScope
 @RestController
 @RequestMapping("/user")
-@RefreshScope
 public class UserController {
     @Autowired
     private IUserService iUserService;

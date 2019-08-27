@@ -1,35 +1,15 @@
 spring:
   cloud:
     config:
-      #  discovery:
-      #    enabled: true # 通过服务发现的方式去找配置中心
-      #    service-id: bchd-timp-config # 配置中心的名字，直接配置名称可以在配置中心集群的时候实现负载均衡
-      uri: http://localhost:9100
+      discovery:
+        enabled: true # 通过服务发现的方式去找配置中心
+        service-id: microservice-config # 配置中心的名字，直接配置名称可以在配置中心集群的时候实现负载均衡
       name: microservice-user
       profile: dev #对应配置中心文件的${profile}部分
       label: master
-    stream:
-      kafka:
-        binder:
-          brokers: 192.168.1.35:9092         #Kafka的消息中间件服务器
-          zk-nodes: 192.168.1.35:2181        #Zookeeper的节点，如果集群，后面加,号分隔
-          auto-create-topics: true        #如果设置为false,就不会自动创建Topic
-      bindings:
-        userChangeOutput:
-          destination: userTopic    #消息发往的目的地
-          content-type: application/json    #消息发送的格式，接收端不用指定格式，但是发送端要
-    bus:
-      refresh:
-        enabled: true
-  kafka:
-    bootstrap-servers: 192.168.1.76:9092
-  sleuth:
-    sampler:
-      probability: 1.0
-  zipkin:
-    base-url: http://192.168.1.76:9411
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9101/eureka
+  instance:
+    hostname: localhost
